@@ -14,7 +14,7 @@ h1{
 
 h2{
     color: hsl(204, 43%, 93%);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -54,6 +54,7 @@ ul{
     font-size: 16px;
     font-weight: bold;
     margin-top: 40px;
+    transition: 0.5s ease-in-out;
 }
 
 .description{
@@ -107,6 +108,9 @@ ul{
 
 
 @media screen and (max-width: 798px){
+    .my-container{
+        width: 90%;
+    }
 
     .subscription{
         border-bottom-left-radius: 0px;
@@ -116,5 +120,8 @@ ul{
         border-bottom-left-radius: 5px;
     }
 
+    .subscription p span{
+        color: hsl(205, 43%, 93%);
+        opacity: 0.8;
+    }
 }
-
